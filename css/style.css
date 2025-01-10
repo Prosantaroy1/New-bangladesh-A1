@@ -8,7 +8,7 @@
 
 /*common style*/
 body{
-    font-family: "Azeret Mono", serif;
+    font-family: "Fira Sans", serif;
     background-color: aliceblue;
 }
 .container{
@@ -65,6 +65,65 @@ body{
 }
 
 /*------main style------------*/
+.main-container{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+/*vision futute styles*/
+.heading-title{
+  font-size: 40px;
+  color: #0E0E0E;
+  font-weight: 700;
+}
+.heading-dec{
+  font-size: 16px;
+  font-weight: 400;
+  color: #0E0E0EB2;
+  padding-top: 24px;
+}
+/* vision card */
+.vision-card-sec{
+    padding-top: 32px;
+    display: flex;
+    gap: 14px;
+
+}
+
+.vision-card{
+    width: 410px;
+    border-radius: 16px;
+    padding: 32px;
+}
+.vision-card-img{
+  width: 64px;
+  height: 64px;
+}
+.vision-card-title{
+    font-size: 20px;
+    font-family: 700;
+    font-style: normal;
+    padding: 14px 0px;
+}
+.vision-card-dec{
+    font-size: 16px;
+    font-weight: 400;
+}
+.vision-btn{
+    background-color:#006A50;
+    color: white;
+    margin-top: 16px;
+}
+.vision-box-1{
+    background-color: #5490F5;
+}
+.vision-box-2{
+  background-color: rgb(146, 76, 238);
+}
+.vision-box-3{
+    background-color: aquamarine;
+}
+
 
 
 /*------footer style---------*/
