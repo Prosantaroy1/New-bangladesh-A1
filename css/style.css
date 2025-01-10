@@ -1,0 +1,70 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/*font-family*/
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100..900;1,100..900&family=Noto+Serif+Bengali:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*common style*/
+body{
+    font-family: "Azeret Mono", serif;
+    background-color: aliceblue;
+}
+.container{
+    padding: 0px 160px;
+}
+.btn{
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    padding: 15px 32px;
+}
+
+/*---------header style-------*/
+/* navber style */
+.nav-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 31px 0px;
+}
+.logo{
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 39px;
+}
+.btn-nav{
+    color: #006A50;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+}
+/* banner style */
+.banner-main{
+    background-color: #C6E4D6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 60px;
+    gap: 64px;
+    border-radius: 24px;
+}
+.banner-subtitle{
+    font-size: 28px;
+    font-weight: 500;
+}
+.banner-title{
+    font-size: 56px;
+    font-weight: 700;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+.banner-btn{
+    background-color: #006A50;
+    color: white;
+}
+
+/*------main style------------*/
+
+
+/*------footer style---------*/
