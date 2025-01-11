@@ -106,14 +106,13 @@ body{
 .vision-card-title{
     font-size: 20px;
     font-family: 700;
-    font-style: normal;
     color: #0E0E0ECC;
     padding: 14px 0px;
 }
 .vision-card-dec{
     font-size: 16px;
     font-weight: 400;
-    color: #0E0E0EB2;
+    color: #131313b2;
 }
 .vision-btn{
     background-color:#006A50;
@@ -136,12 +135,14 @@ body{
     background-color: #79a2e9;
 }
 .vision-box-2{
-  background-color: rgb(146, 76, 238);
+  background-color: rgb(159, 105, 230);
 }
 .vision-box-3{
-    background-color: aquamarine;
+    background-color: rgb(152, 236, 208);
 }
-/* ---yunus-sec-style--- */
+/* ------
+----------yunus-sec-style-------
+=------ */
 .yunus-sec-main{
     margin-top: 80px;
     background-color: #FFFFFF;
@@ -168,6 +169,51 @@ body{
     font-weight: 400;
     color: #0E0E0E99;
     line-height: 24px;
+}
+
+/*news-bolg-main*/
+.news-bolg-main{
+    margin-top: 80px;
+}
+.blog-card{
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    padding: 48px 48px;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+}
+.blog-img{
+    border-radius: 24px;
+}
+.blog-dec-title{
+    font-size: 32px;
+    font-weight: 700;
+    color: #0E0E0ECC;
+    padding-bottom: 12px;
+}
+.blog-date{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E0E0EB2;
+    padding: 12px 0px;
+}
+.blog-dec-details{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E0E0EB2;
+    padding: 12px 0px;
+}
+.blog-btn{
+    background-color: #006A50;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 
