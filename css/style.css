@@ -21,6 +21,13 @@ body{
     border-radius: 8px;
     padding: 15px 32px;
 }
+.btn:hover{
+    background-color: #0E0E0E;
+    color: white;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 15px 32px;
+}
 
 /*---------header style-------*/
 /* navber style */
@@ -40,6 +47,7 @@ body{
     font-size: 18px;
     font-weight: 600;
     line-height: 22px;
+    background-color: #FFFFFF;
 }
 /* banner style */
 .banner-main{
@@ -71,6 +79,32 @@ body{
     padding-top: 80px;
     padding-bottom: 80px;
 }
+/* pillers style */
+.pillers-main{
+    margin-bottom: 80px;
+}
+.pillers-box-main{
+    display: flex;
+    gap: 24px;
+    padding-top: 32px;
+}
+.pillers-box{
+    background-color: #FFFFFF;
+    padding: 24px 24px;
+    border-radius: 16px;
+}
+.pillers-title{
+   font-size: 20px;
+   font-weight: 700;
+   color: #0E0E0E;
+   padding: 12px 0px;
+}
+.pillers-dec{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E0E0EB2;
+    line-height: 24px;
+}
 
 /*vision futute styles*/
 .heading-title{
@@ -89,11 +123,10 @@ body{
     padding-top: 32px;
     display: flex;
     gap: 24px;
-
+    justify-content: space-between;
 }
 
 .vision-card{
-    width: 410px;
     border-radius: 16px;
     padding: 32px;
     border: 1px solid white;
@@ -320,6 +353,55 @@ body{
     color: white;
     font-size: 18px;
     font-weight: 600;
+}
+.subscribe-para{
+    text-align: center;
+    font-size: 16px;
+    color: #0E0E0E;
+    padding-top: 28px;
+}
+/* opinion-main style open */
+.opinion-main{
+    margin-top: 80px;
+}
+.feedback-div{
+    padding-top: 32px;
+}
+.feedback-div-main{
+    background-color: #FFFFFF;
+    padding: 32px;
+    margin-top: 32px;
+}
+.feedback-one{
+    display: flex;
+    border: 1px solid rgb(134, 130, 130);
+    padding: 24px 24px;
+    justify-content: space-between;
+    background-color: #C6E4D6;
+}
+.question-box{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(134, 130, 130);
+}
+.question-title{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 24px 24px;
+  
+}
+.question-btn-div{
+    border-left: 1px solid rgb(134, 130, 130);
+    padding: 16px 10px;
+
+}
+.question-btn{
+    background-color: #006A50;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 8px 6px;
+    border-radius: 6px;
 }
 
 /*------footer style---------*/
